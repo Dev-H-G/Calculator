@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  background-color: black;
+}
+.result {
+  color: rgb(0, 0, 0);
+  text-align: right;
+  padding: 30px;
+  margin: 25px 10px 25px 10px;
+  font-size: 2rem;
+  background-color: rgb(185, 178, 169);
+  border-radius: 25px;
+}
+.calculator {
+  color: aliceblue;
+  width: 420px;
+  margin: 100px auto;
+  padding: 5px;
+  background-color: white;
+  border-radius: 25px;
+}
+.keypad-table tr:first-child .key {
+  background-color: rgb(189, 188, 188);
+}
+.keypad-table tr:first-child .key:active {
+  background-color: rgb(100, 98, 98);
+}
+.keypad-table td:last-child .key {
+  background-color: rgb(255, 136, 0);
+}
+.keypad-table td:last-child .key:active {
+  background-color: rgb(179, 102, 2);
+}
+.key {
+  text-align: center;
+  background-color: rgb(114, 113, 113);
+  width: 90px;
+  height: 90px;
+  margin: 5px;
+  line-height: 90px;
+  border-radius: 90px;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 4px 4px 10px gray;
+}
+.key:active {
+  background-color: rgb(87, 87, 87);
+}
